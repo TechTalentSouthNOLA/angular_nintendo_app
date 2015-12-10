@@ -10,6 +10,7 @@ Links for all repos for this project:
 
 ## Instructions
 Instructions for running locally (after bundling then migrating and seeding the databases for both Rails apps):
+
 1. Run your products_api server normally on localhost:3000 (`rails s`).
 2. Run your comments_api server on localhost:9000 (`rails s -p 9000`).
 3. Start your angular_nintendo_app server by running `node server.js`.
