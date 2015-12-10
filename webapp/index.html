@@ -5,6 +5,14 @@
   </head>
   <body ng-controller="asyncCtrl">
 
+  <h1>Thoughts on Nintendo Gaming Platforms</h1>
+
+  <div ng-repeat="product in products">
+    <hr>
+    <h3>{{product.name}}</h3>
+    <p>Comments Count: {{product.comments_count}}</p>
+  </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.min.js"></script>
     <script src="app.js"></script>
     <script src="app.controller.js"></script>

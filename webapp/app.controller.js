@@ -5,6 +5,7 @@ angular.module('myApp')
     $http.get(ApiUrl)
       .success(function(data) {
         console.log(data);
+        $scope.products = data;
       })
       .error(function(err) {
         console.log(err);
