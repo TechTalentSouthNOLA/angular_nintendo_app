@@ -16,3 +16,8 @@ Instructions for running locally (after bundling then migrating and seeding the 
 4. Navigate to localhost:8000 to see the results!
 
 You can use Postman to post additional comments for a product on localhost:9000.
+
+## Lessons
+The lessons for this project were originally written by [Colin Lacy](https://github.com/colinjlacy) and can be found here:
+- [REST APIs with SOA](http://techtalentsouth.slides.com/techtalentsouth/nola-pt-intro-to-apis-316-322?token=Kecw5_GI#/)
+- [Node and Angular](http://techtalentsouth.slides.com/techtalentsouth/nola-pt-node-angular-ajax?token=GIBYNEOP#/)
